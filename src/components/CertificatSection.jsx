@@ -69,7 +69,7 @@ const CertificatSection = () => {
                   <div className="mt-6">
                     <a
                       href="#"
-                      className="text-sm font-medium border border-[#f6c432] px-4 py-2 rounded-sm hover:bg-black text-secondary hover:text-yellow-300"
+                      className="text-sm font-medium px-4 py-2 rounded-sm "
                     >
                       View certificate <span aria-hidden="true">&rarr;</span>
                     </a>

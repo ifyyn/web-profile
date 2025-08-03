@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Button from "./Button";
 
 const HeroSection = () => {
   const [isInitialLoad, setIsInitialLoad] = useState(true);
@@ -76,9 +77,11 @@ const HeroSection = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <button className="w-full flex items-center justify-center px-8 py-3 bg-[#f6c432] border border-transparent text-base font-medium rounded-md text-primary bg-secondary hover:bg-yellow-300 md:py-4 md:text-lg md:px-10">
+            <Button
+              className={`w-full flex items-center justify-center px-8 py-3 bg-[#f6c432] border border-transparent text-base font-medium rounded-md text-primary bg-secondary hover:bg-yellow-300 md:py-4 md:text-lg md:px-10`}
+            >
               Lihat Karya Saya
-            </button>
+            </Button>
           </motion.div>
 
           <motion.div
@@ -88,12 +91,13 @@ const HeroSection = () => {
             animate="visible"
             variants={buttonVariants}
           >
-            <a
-              href="#contact"
-              className="w-full flex items-center justify-center px-8 py-3 border border-white text-[#f6c432] text-base font-medium rounded-md text-secondary bg-primary hover:bg-white hover:text-black md:py-4 md:text-lg md:px-10"
+            <Button
+              className={
+                "w-full flex items-center justify-center px-8 py-3 border border-white text-[#f6c432] text-base font-medium rounded-md text-secondary bg-primary hover:bg-white hover:text-black md:py-4 md:text-lg md:px-10"
+              }
             >
-              Contact Me
-            </a>
+              Hubungi Saya
+            </Button>
           </motion.div>
         </div>
       </div>
