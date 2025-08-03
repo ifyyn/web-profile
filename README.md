@@ -1,5 +1,5 @@
 # React + Vite
-<img src="./images/web1.png" alt="Foto" width="300"/>
+<img src="public/images/web1.png" alt="Foto" width="300"/>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
